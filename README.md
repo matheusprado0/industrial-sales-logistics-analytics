@@ -94,3 +94,11 @@ Inteligência Comercial | Curva ABC de Clientes:
    Linguagens & Ferramentas: Python (Pandas, SQLAlchemy), PostgreSQL, Power BI (DAX, Modelagem Dimensional).
 
    Conceitos Aplicados: Star Schema, ETL, Window Functions, Gestão de Relacionamentos Ativos/Inativos, Análise de Pareto (Curva ABC) e OTIF.
+
+
+<img width="6150" height="3525" alt="IndustrialSalesAnalytics_page-0001" src="https://github.com/user-attachments/assets/efef5688-9e00-460b-adee-3206a09b802b" />
+
+<img width="6150" height="3525" alt="IndustrialSalesAnalytics_page-0002" src="https://github.com/user-attachments/assets/4815fa3c-9452-4268-ae88-d999fb01dd02" />
+
+<img width="6150" height="3525" alt="IndustrialSalesAnalytics_page-0003" src="https://github.com/user-attachments/assets/2761d540-a313-4c9b-8039-cf6010b22e90" />
+
