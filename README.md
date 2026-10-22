@@ -42,22 +42,21 @@ industrial-sales-analytics/
 ```
 
 🚀 Etapas do Desenvolvimento
+
 1. Engenharia e Geração de Dados (Python)
 
-
-Desenvolvimento de script customizado utilizando as bibliotecas pandas e Faker para gerar transações comerciais e logísticas consistentes,
-simulando um ambiente industrial real (clientes por região/segmento,portfólio de produtos com custos e preços, e rotas de transporte).
+   Desenvolvimento de script customizado utilizando as bibliotecas pandas e Faker para gerar transações comerciais e logísticas consistentes,
+   simulando um ambiente industrial real (clientes por região/segmento,portfólio de produtos com custos e preços, e rotas de transporte).
 
 2. Pipeline de Carga (ETL) e Banco de Dados (PostgreSQL)
-```
-Tratamento e normalização dos dados estruturados.
-Carga automatizada dos arquivos CSV para o PostgreSQL via Python (SQLAlchemy / psycopg).
-```
+   Tratamento e normalização dos dados estruturados.
+   Carga automatizada dos arquivos CSV para o PostgreSQL via Python (SQLAlchemy / psycopg).
+   
 Modelagem Dimensional (Star Schema):
-```
-Estruturação de Tabelas Dimensão (dimcliente, dimproduto, dimtransportadora) e Tabelas Fato (factvendas, factlogistica), 
-com aplicação rígida de Chaves Primárias (PK) e Chaves Estrangeiras (FK) para integridade referencial.
-```
+
+       Estruturação de Tabelas Dimensão (dimcliente, dimproduto, dimtransportadora) e Tabelas Fato (factvendas, factlogistica), 
+       com aplicação rígida de Chaves Primárias (PK) e Chaves Estrangeiras (FK) para integridade referencial.
+
 3. Consultas SQL Analíticas Avançadas
 ```
 Implementação de consultas em PostgreSQL para validação prévia de negócio:
