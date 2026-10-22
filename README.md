@@ -48,29 +48,29 @@ industrial-sales-analytics/
    Desenvolvimento de script customizado utilizando as bibliotecas pandas e Faker para gerar transações comerciais e logísticas consistentes,
    simulando um ambiente industrial real (clientes por região/segmento,portfólio de produtos com custos e preços, e rotas de transporte).
 
-2. Pipeline de Carga (ETL) e Banco de Dados (PostgreSQL)
+2. Pipeline de Carga (ETL) e Banco de Dados (PostgreSQL):
+   
    Tratamento e normalização dos dados estruturados.
    Carga automatizada dos arquivos CSV para o PostgreSQL via Python (SQLAlchemy / psycopg).
    
 Modelagem Dimensional (Star Schema):
+   Estruturação de Tabelas Dimensão (dimcliente, dimproduto, dimtransportadora) e Tabelas Fato (factvendas, factlogistica), 
+   com aplicação rígida de Chaves Primárias (PK) e Chaves Estrangeiras (FK) para integridade referencial.
 
-       Estruturação de Tabelas Dimensão (dimcliente, dimproduto, dimtransportadora) e Tabelas Fato (factvendas, factlogistica), 
-       com aplicação rígida de Chaves Primárias (PK) e Chaves Estrangeiras (FK) para integridade referencial.
+3. Consultas SQL Analíticas Avançadas:
 
-3. Consultas SQL Analíticas Avançadas
-```
-Implementação de consultas em PostgreSQL para validação prévia de negócio:
-Margem Bruta por Categoria: Agregações complexas cruzando receita e custos operacionais.
-Performance Logística (OTIF): Mensuração de entregas no prazo utilizando condicionais (CASE WHEN).
-Curva ABC de Clientes: Utilização de Window Functions (SUM() OVER (ORDER BY ... DESC)) para cálculo dinâmico de faturamento acumulado e curva de Pareto.
-```
+   Implementação de consultas em PostgreSQL para validação prévia de negócio:
+   Margem Bruta por Categoria: Agregações complexas cruzando receita e custos operacionais.
+   Performance Logística (OTIF): Mensuração de entregas no prazo utilizando condicionais (CASE WHEN).
+   Curva ABC de Clientes: Utilização de Window Functions (SUM() OVER (ORDER BY ... DESC)) para cálculo dinâmico de faturamento acumulado e curva de Pareto.
+
 4. Inteligência de Negócios e Dashboard (Power BI)
-```
-Modelagem Relacional: Conexão estreita em estrela (1:*), criação de uma Tabela Calendário (dCalendario) dedicada
-e tratamento de relacionamentos inativos (USERELATIONSHIP)para análise temporal de logística (DataEnvio).
-Medidas DAX Avançadas: Faturamento Total, Custo Total, Lucro Bruto, Margem (%), Taxa de Pontualidade (OTIF),
-Faturamento Acumulado e Classificação Automática de Clientes (Classe A, B e C).
-```
+
+   Modelagem Relacional: Conexão estreita em estrela (1:*), criação de uma Tabela Calendário (dCalendario) dedicada
+   e tratamento de relacionamentos inativos (USERELATIONSHIP)para análise temporal de logística (DataEnvio).
+   Medidas DAX Avançadas: Faturamento Total, Custo Total, Lucro Bruto, Margem (%), Taxa de Pontualidade (OTIF),
+   Faturamento Acumulado e Classificação Automática de Clientes (Classe A, B e C).
+
 📊 Estrutura do Dashboard (3 Páginas)
 
 Visão Executiva | Vendas & Margem:
