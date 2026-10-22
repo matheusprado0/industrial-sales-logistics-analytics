@@ -6,7 +6,7 @@ de dados sintética até a modelagem relacional, consultas SQL analíticas avan�
 ---
 
 🛠️ Arquitetura e Fluxo de Dados
-
+```
 [ Python (Pandas / Faker) ] 
        │
        ▼ (Geração de Massa Relacional & ETL)
@@ -14,10 +14,11 @@ de dados sintética até a modelagem relacional, consultas SQL analíticas avan�
        │
        ▼ (Modelagem Relacional, dCalendario & Medidas DAX)
 [ Power BI (Dashboard de 3 Páginas: Executivo, Logística/OTIF e Curva ABC) ]
-
+```
 
 📂 Estrutura do Repositório
 
+```
 industrial-sales-analytics/
 │
 ├── data/                    # Arquivos CSV brutos (Dimensões e Fatos)
@@ -38,7 +39,7 @@ industrial-sales-analytics/
 │
 └── dashboard/               # Arquivos e capturas do Power BI
     └── Apex_Industrial_Analytics.pbix
-
+```
 
 🚀 Etapas do Desenvolvimento
 1. Engenharia e Geração de Dados (Python)
