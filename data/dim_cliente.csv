@@ -1,0 +1,10 @@
+ClienteID,NomeCliente,Segmento,Cidade,Estado,Regiao
+1,Metalúrgica Santa Rita,Atacado,Caxias do Sul,RS,Sul
+2,Comércio de Aços Paranaense,Distribuidor,Londrina,PR,Sul
+3,Indústria de Máquinas Alfa,Atacado,Joinville,SC,Sul
+4,Tecnologia e Automação Ltda,Varejo,São Paulo,SP,Sudeste
+5,Construtora e Terraplanagem Beta,Atacado,Belo Horizonte,MG,Sudeste
+6,Equipamentos agrícolas Goiânia,Distribuidor,Goiânia,GO,Centro-Oeste
+7,Serralheria Industrial Cuiabá,Varejo,Cuiabá,MT,Centro-Oeste
+8,Metalúrgica Nordeste S.A.,Atacado,Recife,PE,Nordeste
+9,Distribuidora de Insumos Bahia,Distribuidor,Salvador,BA,Nordeste

@@ -1,0 +1,5 @@
+TransportadoraID,NomeTransportadora,TipoFrota,RegiaoAtuante
+1,TransLog Sul Cargas,Terceirizada,Sul
+2,Express Via Sudeste,Própria,Sudeste
+3,Rota Norte-Centro Rodovias,Terceirizada,Centro-Oeste
+4,Nacional Cargas Pesadas,Própria,Nacional

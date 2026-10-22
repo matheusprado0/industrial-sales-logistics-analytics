@@ -1,0 +1,8 @@
+ProdutoID,SKU,NomeProduto,Categoria,Subcategoria,CustoUnitario,PrecoBase
+1,PRD-001,Chapa de Aço Carbono 10mm,Matéria-Prima,Chapas,450.0,680.0
+2,PRD-002,Perfil I Estrutural 6 metros,Matéria-Prima,Perfis,890.0,1250.0
+3,PRD-003,Kit Engrenagens Helicoidais,Componentes,Mecânica,150.0,260.0
+4,PRD-004,Atuador Linear Hidráulico,Componentes,Automação,1200.0,1850.0
+5,PRD-005,Correia Industrial de Transmissão,Componentes,Manutenção,85.0,140.0
+6,PRD-006,Válvula Solenóide 3 vias,Componentes,Pneumática,320.0,510.0
+7,PRD-007,Conjunto de Mancal e Rolamento,Componentes,Mecânica,210.0,350.0
