@@ -53,7 +53,7 @@ industrial-sales-analytics/
    Tratamento e normalização dos dados estruturados.
    Carga automatizada dos arquivos CSV para o PostgreSQL via Python (SQLAlchemy / psycopg).
    
-Modelagem Dimensional (Star Schema):
+   Modelagem Dimensional (Star Schema):
    Estruturação de Tabelas Dimensão (dimcliente, dimproduto, dimtransportadora) e Tabelas Fato (factvendas, factlogistica), 
    com aplicação rígida de Chaves Primárias (PK) e Chaves Estrangeiras (FK) para integridade referencial.
 
@@ -75,25 +75,22 @@ Modelagem Dimensional (Star Schema):
 
 Visão Executiva | Vendas & Margem:
 
-Acompanhamento de KPIs macro (Faturamento, Custo, Lucro Bruto e Margem %).
-
-Gráfico de evolução temporal (sazonalidade) e comparativo de desempenho por categoria de produtos (Componentes vs. Matéria-Prima).
-
-Tabela analítica detalhada por cliente, região e segmento.
+   Acompanhamento de KPIs macro (Faturamento, Custo, Lucro Bruto e Margem %).
+   Gráfico de evolução temporal (sazonalidade) e comparativo de desempenho por categoria de produtos (Componentes vs. Matéria-Prima).
+   Tabela analítica detalhada por cliente, região e segmento.
 
 Supply Chain | Performance Logística & OTIF:
 
-Monitoramento de SLA de entregas, total de entregas no prazo e custo médio de frete por transportadora.
-
-Filtros cruzados e análise detalhada da frota.
+   Monitoramento de SLA de entregas, total de entregas no prazo e custo médio de frete por transportadora.
+   Filtros cruzados e análise detalhada da frota.
 
 Inteligência Comercial | Curva ABC de Clientes:
 
-Aplicação do Princípio de Pareto para identificar a concentração de receita da carteira.
-
-Cartões estratégicos medindo o risco de concentração (ex: quantidade de clientes que sustentam 80% do faturamento) e classificação automatizada de clientes em Classes (A, Estratégico, B e C).
+   Aplicação do Princípio de Pareto para identificar a concentração de receita da carteira.
+   Cartões estratégicos medindo o risco de concentração (ex: quantidade de clientes que sustentam 80% do faturamento) e classificação automatizada de clientes em Classes (A, Estratégico, B e C).
 
 💻 Tecnologias Utilizadas
-Linguagens & Ferramentas: Python (Pandas, SQLAlchemy), PostgreSQL, Power BI (DAX, Modelagem Dimensional).
 
-Conceitos Aplicados: Star Schema, ETL, Window Functions, Gestão de Relacionamentos Ativos/Inativos, Análise de Pareto (Curva ABC) e OTIF.
+   Linguagens & Ferramentas: Python (Pandas, SQLAlchemy), PostgreSQL, Power BI (DAX, Modelagem Dimensional).
+
+   Conceitos Aplicados: Star Schema, ETL, Window Functions, Gestão de Relacionamentos Ativos/Inativos, Análise de Pareto (Curva ABC) e OTIF.
